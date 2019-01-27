@@ -1,0 +1,376 @@
+body {
+  font-family:  'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  margin-left: 9px;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 800;
+  display: block;
+}
+
+.avatar {
+  width: 57px;
+  height: 57px;
+  background:url('https://pp.userapi.com/c850016/v850016651/7ee9f/9KglfPSo_K4.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  position: relative;
+}
+
+.menu-list a:before {
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background-color: #000;
+  transition: 0.2s;
+}
+
+.menu-list a:hover:before {
+  width: 100%;
+  
+}
+
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+
+.hero {
+  padding-bottom: 112px;
+  padding-top: 112px;
+  background: url(https://pp.userapi.com/c850016/v850016651/7ee9f/9KglfPSo_K4.jpg) no-repeat right bottom;
+  background-size: 35%;
+}
+
+.hero-subtitle {
+  font-size: 32px;
+}
+
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.hero-social {
+  margin-top: 26px;
+}
+
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+
+.behance-bg {
+  background-color: #1869ff;
+}
+
+.facebook-bg {
+  background-color: #3a5898;
+}
+
+.instagram-bg {
+  background-color: #13578a;
+}
+
+.vk-bg {
+  background-color: #56acef;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.hero-button {
+  margin-top: 42px;
+}
+
+.button-primary {
+  color: #fff
+}
+
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-height: 370px;
+  width: 370px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+.projects  {
+  padding: 97px 0;
+}
+
+.project-card_images {
+  width: 100%;
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.project-card_info {
+  padding: 19px 13px;
+}
+
+.category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+  
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.card_1 {
+  background: url(https://psychotext.ru/public/files/images/lp_prototip.png) no-repeat;
+  background-size: cover;
+}
+
+.card_2 {
+  background: url(http://www.digital-life24.ru/uploads/yslugi/file_4.jpg?1512628045521) no-repeat center ;
+  background-size: cover;
+}
+
+ .card_3 {
+  background: url(https://n-novgorod.9310802.ru/upload/iblock/d15/d15ac5a8c7227ac2fc46f6bab30b4d2a.png) center;
+  background-size: cover;
+}
+
+.card_4 {
+  background: url(https://impulse-design.com.ua/images/portfolio/vodunax/bg_2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.card_5 {
+  background: url(https://gasar.ru/wp-content/uploads/2016/06/lp-1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.card_6 {
+  background: url(http://sashagolovin.ru/assets/files/2017/07/1313244_935xp.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.card_7 {
+  background: url(https://fertdesign.ru/upload/medialibrary/0a9/landing.jpg) center no-repeat;
+  background-size: cover;
+}
+  
+.card_8 {
+  background: url(https://perfecto-web.pro/uploads/portfolio/343/fortfs-responsive.png) center no-repeat;
+  background-size: cover;
+}
+
+.card_9 {
+  background: url(https://i.ytimg.com/vi/50Twc4ghBFM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&amp;rs=AOn4CLBII_5WqiFgfdhhHhvz24TQsj2aog) center no-repeat;
+  background-size: cover;
+}
+
+.bio_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.bio_images {
+    max-width: 414px;
+    margin-left: 20px;
+}
+
+.bio-i {
+  width: 211px;
+  height: 34px;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 15px;
+}
+
+.text-p {
+  width: 471px;
+  height: 252px;
+  color: #717072;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.bio-button {
+  margin-top: 100px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid  #413f41;
+  font-size: 14px;
+}
+
+.footer-social_link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button {
+  border: 1px solid #8d8d8e;
+  border-radius: 50px;
+  padding: 8px 24px;
+  background-color: transporant;
+}
+
+@media (max-width: 1200px) {
+  .conteiner {
+    width: 965px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .conteiner {
+    width: 760px;
+  }
+.card {
+    width; 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 250px;
+  }
+  .conteiner {
+    width: 95%;
+  }
+.card {
+    width: 95%;
+    margin: 30px auto;
+  }
+}
